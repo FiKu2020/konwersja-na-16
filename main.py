@@ -1,3 +1,5 @@
-a = 12345
-b = int(a)
-print(hex(b))
+x = int(input("podaj dodatnia cyfre: "))
+
+if x < 0:
+    print("Podaj cyfre dodatnia")
+    
