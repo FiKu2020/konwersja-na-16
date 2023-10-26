@@ -1,6 +1,9 @@
 def konwersjanaszesnasatkowy(x):
     if x < 0:
-        return "Podaj liczbę dodatnią"
+        return "Podana liczba jest ujemna, podaj dodatnia liczbe"
+    else:
+        if x == 0:
+            return "0"
 
     wygladwhexadecymalnym = ''
 
