@@ -9,15 +9,13 @@ def konwersjanaszesnasatkowy(x):
         wygladwhexadecymalnym = resztaDzielenia + wygladwhexadecymalnym;
     else:
         wygladwhexadecymalnym = chr(ord('A') + resztaDzielenia - 10) + wygladwhexadecymalnym
+    x = x // 16
+
     return wygladwhexadecymalnym
 
-
-
-
-x = int(input("Podaj dodatnia cyfre: "))
-print(wygladwhexadecymalnym)
-
-
+x = int(input("Podaj Dodatnia Cyfre: "))
+ostWynik = konwersjanaszesnasatkowy(x)
+print("wyglad w systemie szesnastkowym: ", ostWynik)
 
 
 
